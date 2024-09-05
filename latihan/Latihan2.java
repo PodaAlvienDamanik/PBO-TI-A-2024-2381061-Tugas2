@@ -1,24 +1,28 @@
 package latihan;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Latihan2 {
     public static void main(String[] args) {
-        int[] bilangan = new int[3];
+
         Scanner input = new Scanner(System.in);
+        System.out.println("Masukkan Angka ke-1: ");
+        int angka1 = input.nextInt();
 
-        for (int i = 0; i< bilangan.length; i++){
-            System.out.println("Masukkan Bilangan ke- " + i + " :");
-            bilangan [1] = input.nextInt();
-        }
+        System.out.println("Masukkan Angka ke-2: ");
+        int angka2 = input.nextInt();
 
-        int largetNum = bilangan [0];
-        for (int i = 1; i < bilangan.length; i++){
-            if (largetNum < bilangan[i]){
-                largetNum = bilangan[i];
-            }
+        System.out.println("Masukkan Angka ke-3: ");
+        int angka3 = input.nextInt();
+
+        if (angka1 > angka2 && angka1 > angka3){
+            System.out.println("Angka terbesar " + angka1);
+        }else if(angka2 > angka1 && angka2 >angka3){
+            System.out.println("Angka terbesar " + angka2);
+        }else{
+            System.out.println("Angka terbesar " + angka3);
         }
-        System.out.println(largetNum);
         //mencari nilai maksimum dari 3 bilangan
 
     }

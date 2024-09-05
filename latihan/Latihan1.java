@@ -1,10 +1,8 @@
 package latihan;
 
-import com.sun.security.jgss.GSSUtil;
-
 import java.util.Scanner;
 
-public class Latihan {
+public class Latihan1 {
     public static void main(String[] args) {
     int[] bilangan = new int[2];
         Scanner input =  new Scanner(System.in);

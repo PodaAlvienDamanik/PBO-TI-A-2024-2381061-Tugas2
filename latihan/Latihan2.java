@@ -8,7 +8,7 @@ public class Latihan2 {
         Scanner input = new Scanner(System.in);
 
         for (int i = 0; i< bilangan.length; i++){
-            System.out.println("Masukkan Bilangan ke- " + 1 + " :");
+            System.out.println("Masukkan Bilangan ke- " + i + " :");
             bilangan [1] = input.nextInt();
         }
 
